@@ -4,7 +4,6 @@ body {
   background: linear-gradient(to right, #f857a6, #ff5858);
   display: flex;
   flex-direction: column;
-
 }
 
 p {
@@ -23,8 +22,8 @@ h2 {
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   display: flex;
   flex-direction: column;
-  height: 375px;
-  /* width: 475px; */
+  min-height: 375px;
+  /* min-width: 475px; */
   margin: 0 auto;
   position: relative;
 }
@@ -32,7 +31,7 @@ h2 {
 input {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  color: #eee; /*light grey*/
+  color: #bbb; /*light grey*/
   border: 1px solid #eee;
   border-radius: 5px;
   width: 85%;
@@ -54,9 +53,11 @@ li {
   font-family: 'Open Sans', sans-serif;
   color: white;
   border-radius: 5px;
-  width: 85%;
+  width: 89%;
   margin: 0 auto;
   padding: 5px;
+  margin-bottom: 35px;
+  cursor: pointer;
 }
 
 #complete {
@@ -64,6 +65,7 @@ li {
   border: 1px solid #ff69b4; /*lighter pink*/
   background-color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .completed {
@@ -74,4 +76,5 @@ li {
 .material-icons {
   position: absolute;
   right: 20px;
+  cursor: pointer;
 }
